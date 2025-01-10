@@ -17,6 +17,7 @@
   "homepage": "https://github.com/MahirPatel2005/AtlasDeployement#readme",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "mongodb": "^6.12.0"
   }
