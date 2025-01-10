@@ -62,7 +62,7 @@ app.post('/students', async (req, res) => {
 // PUT: Update a student completely
 app.put('/students/:rollNumber', async (req, res) => {
     try {
-        const rollNumber = parseInt(req.params.rollNumber);
+        const rollNumber = req.params.rollNumber;
         const updatedStudent = req.body;
         const result = await students.replaceOne({ rollNumber }, updatedStudent);
         res.status(200).send(`${result.modifiedCount} document(s) updated`);
