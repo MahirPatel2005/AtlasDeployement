@@ -1,0 +1,23 @@
+{
+  "name": "atlasdeployement",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahirPatel2005/AtlasDeployement.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MahirPatel2005/AtlasDeployement/issues"
+  },
+  "homepage": "https://github.com/MahirPatel2005/AtlasDeployement#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0"
+  }
+}
